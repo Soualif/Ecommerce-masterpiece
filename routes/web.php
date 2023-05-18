@@ -19,8 +19,8 @@ Route::get('/', 'App\Http\Controllers\HomeController@home')->name('home');
 Route::get('/contact', 'App\Http\Controllers\HomeController@contact')->name('contact');
 
 //Shop
-Route::get('/shop', 'App\Http\Controllers\HomeController@shop')->name('shop.home');
-Route::get('/shop/single-product', 'App\Http\Controllers\HomeController@product')->name('shop.show');
+Route::get('/shop', 'App\Http\Controllers\ShopController@index')->name('shop.index');
+Route::get('/shop/{product}', 'App\Http\Controllers\ShopController@show')->name('shop.show');
 
 
 //cart

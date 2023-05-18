@@ -21,10 +21,10 @@
                                 </a>
                             </li>
 							<li class="nav-item submenu dropdown">
-								<a href="{{ route('shop.home') }}" class="nav-link">
+								<a href="{{ route('shop.index') }}" class="nav-link">
                                  <i class="fa-solid fa-shopping-bag"></i>
                                  Shop
-                                </a>
+                                </a> 
 							</li>
 							<li class="nav-item">
                                 <a class="nav-link" href="{{ route('contact') }}">
@@ -32,6 +32,7 @@
                                     Contact
                                 </a>
                             </li>
+                            
 						</ul>
 
                         <ul class="nav navbar-nav menu_nav ml-auto">
